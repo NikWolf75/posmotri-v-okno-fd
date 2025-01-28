@@ -219,8 +219,7 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 0.9;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
+  -webkit-box
   line-clamp: 1;
   text-overflow: ellipsis;
   color: #fff;

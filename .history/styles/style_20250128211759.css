@@ -219,8 +219,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 0.9;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
   line-clamp: 1;
   text-overflow: ellipsis;
   color: #fff;
@@ -303,7 +301,7 @@ ol {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
-  padding: 8px;
+  padding-bottom: 9px;
   cursor: pointer;
 }
 

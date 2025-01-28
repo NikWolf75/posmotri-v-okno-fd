@@ -78,7 +78,6 @@ ol {
   grid-template-columns: 225px 212px 194px;
   gap: 40px;
   padding-bottom: 3px;
-  width: inherit;
 }
 
 .content__list-container {
@@ -214,13 +213,11 @@ ol {
 
 .content__video-card-description {
   display: -webkit-box;
-  overflow: hidden;
+  o
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 0.9;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
+  line-height: 1.4;
   line-clamp: 1;
   text-overflow: ellipsis;
   color: #fff;
@@ -245,14 +242,14 @@ ol {
   border: 1px solid #fff;
   border-left: none;
   border-right: none;
-  font-family: inherit;
-  color: inherit;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #fff;
   background-color: transparent;
   font-size: 17.6px;
   appearance: none;
 }
 
-.search-form__textfield:focus-visible {
+.search-form__textfield:focus {
   outline: none;
 }
 
@@ -272,7 +269,6 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
-  display: inline-block;
   background-color: #fff;
   width: 18px;
   height: 18px;
@@ -303,7 +299,6 @@ ol {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
-  padding: 8px;
   cursor: pointer;
 }
 
@@ -321,10 +316,11 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 1px;
 }
 
 .more-button {
   width: 100%;
+  height: 34px;
   margin-top: 30px;
+  margin-bottom: 8.3px;
 }
