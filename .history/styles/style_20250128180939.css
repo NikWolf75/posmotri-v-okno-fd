@@ -220,6 +220,13 @@ ol {
   color: #fff;
 }
 
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
 .search-form__fieldset {
   border: none;
 }

@@ -172,9 +172,13 @@ ol {
 }
 
 .content__card-link {
-  display: block;
   text-decoration: none;
   color: #fff;
+}
+
+.content__card-link {
+  display: block;
+  text-decoration: none;
 }
 
 .content__card-link_current {
@@ -220,6 +224,13 @@ ol {
   color: #fff;
 }
 
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
 .search-form__fieldset {
   border: none;
 }
@@ -245,6 +256,7 @@ ol {
   border-right: none;
   font-family: 'Fira Sans Condensed', sans-serif;
   color: #fff;
+  font-family: inherit;
   background-color: transparent;
   font-size: 17.6px;
   appearance: none;

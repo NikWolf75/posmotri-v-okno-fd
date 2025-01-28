@@ -172,9 +172,9 @@ ol {
 }
 
 .content__card-link {
-  display: block;
   text-decoration: none;
   color: #fff;
+  display: block;
 }
 
 .content__card-link_current {
@@ -218,6 +218,13 @@ ol {
   line-clamp: 1;
   text-overflow: ellipsis;
   color: #fff;
+}
+
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
 }
 
 .search-form__fieldset {
