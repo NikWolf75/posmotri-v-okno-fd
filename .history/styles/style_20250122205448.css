@@ -1,0 +1,101 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  block-size: 100%;
+}
+
+.page {
+  display: flex;
+  inline-size: 1200px;
+  block-size: 100%;
+  margin: auto;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  background-color: #1b1919;
+}
+
+.content {
+  display: grid;
+  grid-area: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 133px 30px;
+}
+
+.search-form {
+  display: flex;
+  gap: 40px;
+}
+
+.content__list-container {
+  position: absolute;
+  overflow: scroll scroll;
+  width: 399px;
+  height: 534px;
+}
+
+.result__video-container {
+  width: 711px;
+  height: 386px;
+  object-fit: fill;
+}
+
+.content__list-item {
+  gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-self: auto;
+  gap: 40px;
+}
+
+.content__video-card-thumbnail {
+  object-fit: contain;
+  object-position: center;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+
+.search-form__fieldset-title {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Кастомный скроллбар */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgb(217 217 217 / 10%);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #D9D9D9;
+}
