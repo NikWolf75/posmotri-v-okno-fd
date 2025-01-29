@@ -126,6 +126,7 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 .content__video-card-thumbnail {
@@ -210,7 +211,7 @@ ol {
 }
 
 .content__video-card-description {
-  display: -webkit-box;
+
   overflow: hidden;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
@@ -270,8 +271,8 @@ ol {
   content: "";
   display: inline-block;
   background-color: #fff;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
 }
 
 .search-form__label:hover .search-form__label-text {

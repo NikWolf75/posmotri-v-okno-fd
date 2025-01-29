@@ -126,6 +126,7 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 .content__video-card-thumbnail {
@@ -217,7 +218,8 @@ ol {
   font-size: 18px;
   line-height: 0.9;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 1;
+  line-clamp: 2;
   text-overflow: ellipsis;
   color: #fff;
 }
@@ -270,8 +272,8 @@ ol {
   content: "";
   display: inline-block;
   background-color: #fff;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
 }
 
 .search-form__label:hover .search-form__label-text {

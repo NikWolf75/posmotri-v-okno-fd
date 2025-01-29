@@ -126,6 +126,7 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 .content__video-card-thumbnail {
@@ -212,7 +213,7 @@ ol {
 .content__video-card-description {
   display: -webkit-box;
   overflow: hidden;
-  font-family: 'Fira Sans Condensed', sans-serif;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 0.9;

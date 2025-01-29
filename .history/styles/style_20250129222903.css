@@ -126,6 +126,7 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  flex-direction: row;
 }
 
 .content__video-card-thumbnail {
@@ -138,8 +139,6 @@ ol {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
 }
 
 .search-form__fieldset {
